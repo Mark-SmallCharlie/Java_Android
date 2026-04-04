@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\xml_backup_rules.xml.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\layout_activity_main.xml.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\layout_todo_item.xml.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\layout\\todo_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\xml_data_extraction_rules.xml.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.todo.app-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "com.example.todo.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\layout_activity_add.xml.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\layout\\activity_add.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.todo.app-merged_res-34:/layout_todo_item.xml.flat",
+        "source": "com.example.todo.app-main-36:/layout/todo_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Android\\android-gradle\\daemon\\8.0\\com.example.todo.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    }
+]
