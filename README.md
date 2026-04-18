@@ -36,9 +36,8 @@ Markdown 编写的文档后缀为 `.md` 或 `.markdown`。
    - Demo
 ### untitled1
 * 主目录下存在两个StuScore.iml文件
- 
-## Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-## Mine-msater
+
+## Mine-msater [Heading link]([https://github.com/pandao/editor.md](https://github.com/Mark-SmallCharlie/Java_Android/edit/master/README.md) "Heading link")
 ### app
 ### buildSrc
 ### gradle/wrapper
