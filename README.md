@@ -20,11 +20,31 @@ Markdown 编写的文档后缀为 `.md` 或 `.markdown`。
  - Demo
 
 ## DabaiActivity5[   ](https://github.com/pandao/editor.md "Heading link")
+### .idea
+### app
+### gradle/wrapper
 
 ## JavaTextview
+### app
+### gradle/wrapper
+
 ## Java实训
+### StuSCore
+### out
+ - production
+ - - StuScore
+   - Demo
+### untitled1
+* 主目录下存在两个StuScore.iml文件
+ 
 ## Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
 ## Mine-msater
+### app
+### buildSrc
+### gradle/wrapper
+### libbase
+### source
+
 ## MyApplication3
 ## StudentScoreSytem
 ## classTansfrom
