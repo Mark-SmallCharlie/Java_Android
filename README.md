@@ -37,7 +37,7 @@ Markdown 编写的文档后缀为 `.md` 或 `.markdown`。
 ### untitled1
 * 主目录下存在两个StuScore.iml文件
 
-## Mine-msater [Heading link]([https://github.com/pandao/editor.md](https://github.com/Mark-SmallCharlie/Java_Android/edit/master/README.md) "Heading link")
+## Mine-msater [___]([https://github.com/pandao/editor.md](https://github.com/Mark-SmallCharlie/Java_Android/edit/master/README.md) "Heading link")
 ### app
 ### buildSrc
 ### gradle/wrapper
@@ -45,6 +45,8 @@ Markdown 编写的文档后缀为 `.md` 或 `.markdown`。
 ### source
 
 ## MyApplication3
+### 
+
 ## StudentScoreSytem
 ## classTansfrom
 ## jicheng
