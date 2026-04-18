@@ -12,7 +12,7 @@ Markdown 编写的文档后缀为 `.md` 或 `.markdown`。
  .idea
   app
   gradle/wrapper
-## CarEngine
+## CarEngine /IEDA项目
 ### out
  - product
  - - CarEngine
@@ -28,13 +28,13 @@ Markdown 编写的文档后缀为 `.md` 或 `.markdown`。
 ### app
 ### gradle/wrapper
 
-## Java实训
+## Java实训 /IEDA项目
 ### StuSCore
 ### out
  - production
  - - StuScore
    - Demo
-### untitled1
+### untitled1 
 * 主目录下存在两个StuScore.iml文件
 
 ## Mine-msater [___]([https://github.com/pandao/editor.md](https://github.com/Mark-SmallCharlie/Java_Android/edit/master/README.md) "Heading link")
@@ -45,20 +45,77 @@ Markdown 编写的文档后缀为 `.md` 或 `.markdown`。
 ### source
 
 ## MyApplication3
-### 
+### .idea
+### app
+### gradle/wrapper
 
-## StudentScoreSytem
-## classTansfrom
-## jicheng
-## kaoshitest
+## StudentScoreSytem /IEDA项目
+### src/Demo
+
+## classTansfrom /IEDA项目
+### out/production/classTansfrom
+
+## jicheng /IEDA项目
+### out/production/jicheng/Demo
+### src/Demo
+
+## kaoshitest /IEDA项目
+### src
+### target
+
 ## loginApp
+### .idea
+### app
+### gradle/wrapper
+
 ## newempth
+### .idea
+### app
+### gradle/wrapper
+
+
 ## noactivity
+### .idea
+### app
+### gradle/wrapper
+
 ## photoskip
+### .idea
+### app
+### gradle/wrapper
+
 ## todo_step1
+### .gradle
+### .idea
+### app
+### gradle/wrapper
+
 ## todo_step3
-## 多态
-## 接口
-## 类
-## 重写
+### .gradle
+### .idea
+### app
+### gradle/wrapper
+
+## 多态 /IEDA项目
+* Cat.java
+* Dog.java
+* Test.java
+ 
+## 接口 /IEDA项目
+* Cat.java
+* Dog.java
+* Test.java
+
+## 类 /IEDA项目
+* Animal.java
+* Animal2.java
+
+## 重写 /IEDA项目
+* Animal.java
+* Animal2.java
+* Cat.java
+* Dog.java
+* Java.iml
+* Test.java
+
 ## Mine-master.zip
