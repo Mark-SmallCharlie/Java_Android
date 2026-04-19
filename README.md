@@ -38,7 +38,7 @@ Markdown 编写的文档后缀为 `.md` 或 `.markdown`。
 ### untitled1 
 * 主目录下存在两个StuScore.iml文件
 
-## Mine-msater [___]([https://github.com/pandao/editor.md](https://github.com/Mark-SmallCharlie/Java_Android/edit/master/README.md) "Heading link")
+## Mine-msater []([https://github.com/pandao/editor.md](https://github.com/Mark-SmallCharlie/Java_Android/edit/master/README.md) "Heading link")
 ### app
 ### buildSrc
 ### gradle/wrapper
@@ -120,3 +120,89 @@ Markdown 编写的文档后缀为 `.md` 或 `.markdown`。
 * Test.java
 
 ## Mine-master.zip
+
+--------
+## App1
+**简介**：安卓开发应用，
+**文件介绍**：
+
+## CarsEngine
+**简介**：Java_IDEA开发基础程序
+**文件介绍**：
+
+## DaibanActivity5
+**简介**：安卓开发应用，
+**文件介绍**：
+
+## JavaTextview
+**简介**：安卓开发应用，
+**文件介绍**：
+
+## Java实训
+**简介**：Java_IDEA开发基础程序
+**文件介绍**：
+
+## Mine-master
+**简介**：安卓开发应用，
+**文件介绍**：
+
+## MyApplication3
+**简介**：安卓开发应用，
+**文件介绍**：
+
+## StudentScoreSytem
+**简介**：
+**文件介绍**：
+
+## classTansfrom
+**简介**：
+**文件介绍**：
+
+## jicheng
+**简介**：
+**文件介绍**：
+
+## kaoshitest
+**简介**：
+**文件介绍**：
+
+## loginApp
+**简介**：安卓开发应用，
+**文件介绍**：
+
+## newmpth
+**简介**：
+**文件介绍**：
+
+## noactivity
+**简介**：安卓开发应用，
+**文件介绍**：
+
+## photoskip
+**简介**：安卓开发应用，
+**文件介绍**：
+
+## todo_step1
+**简介**：安卓开发应用，
+**文件介绍**：
+
+## todi_step3
+**简介**：安卓开发应用，
+**文件介绍**：
+
+## 多态
+**简介**：
+**文件介绍**：
+
+## 接口
+**简介**：
+**文件介绍**：
+
+## 类
+**简介**：
+**文件介绍**：
+
+## 重写
+**简介**：
+**文件介绍**：
+
