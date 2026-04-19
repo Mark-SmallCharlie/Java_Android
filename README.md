@@ -123,14 +123,18 @@ Markdown 编写的文档后缀为 `.md` 或 `.markdown`。
 
 --------
 ## App1
-**简介**：安卓开发应用，
+**简介**：安卓开发应用，不知道是什么待补充
 
 **文件介绍**：
+        
 
 ## CarsEngine
-**简介**：Java_IDEA开发基础程序
+**简介**：Java_IDEA开发基础程序，创建汽车类为父类，发动机等为子类；
 
-**文件介绍**：
+**文件介绍**：`out/production/CarsEngine`,子文件下有三个类分别是：
+  * `CarEngine.class`,做为父类;
+  * `Car.class`，做为子类;
+  * `Test.class`，测试运行;
 
 ## DaibanActivity5
 **简介**：安卓开发应用，
