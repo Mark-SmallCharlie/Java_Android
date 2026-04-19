@@ -137,7 +137,7 @@ Markdown 编写的文档后缀为 `.md` 或 `.markdown`。
   * `Test.class`，测试运行;
 
 ## DaibanActivity5
-**简介**：安卓开发应用，
+**简介**：安卓开发应用，不知道待补充
 
 **文件介绍**：
 
@@ -149,30 +149,34 @@ Markdown 编写的文档后缀为 `.md` 或 `.markdown`。
 ## Java实训
 **简介**：Java_IDEA开发基础程序
 
-**文件介绍**：
+**文件介绍**：`out/production/StuScore/Demo`,下包含三个类分别是：
+* `Mian.class`，做为主函数进行运行和调用其他函数;
+* `ScoreManager.class`，成绩分析和声明函数;
+* `Student.class`，学生类，定义学生属性和创建结构体;
 
 ## Mine-master
-**简介**：安卓开发应用，
+**简介**：安卓开发应用，不知道是声明待补充
 
 **文件介绍**：
 
+
 ## MyApplication3
-**简介**：安卓开发应用，
+**简介**：安卓开发应用，不知道待补充
 
 **文件介绍**：
 
 ## StudentScoreSytem
-**简介**：
+**简介**：和实训好像一样，可能重复了
 
 **文件介绍**：
 
 ## classTansfrom
-**简介**：Java_IDEA开发基础程序
+**简介**：Java_IDEA开发基础程序，父类和子类的转换，内部和外部类，继承和转化，动物类为例子
 
-**文件介绍**：
+**文件介绍**：Demo/`Animal.class`,`Dog.class`,`Test.class`;
 
 ## jicheng
-**简介**：Java_IDEA开发基础程序
+**简介**：Java_IDEA开发基础程序,继承动物类，猫类，狗类
 
 **文件介绍**：
 
