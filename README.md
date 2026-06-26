@@ -1,0 +1,238 @@
+# 基于Jaca_Android和java-IDEA的项目
+
+## 更新时间：2026/4/15
+* 更新在2025-2026上学期的Java代码
+* 包括Java实训和云大数据作业
+## 创建时间于2023-2024
+
+Markdown 编写的文档后缀为 `.md` 或 `.markdown`。
+
+## 目录 (Table of Contents)
+## App1
+### .idea
+### app
+### gradle/wrapper
+
+## CarEngine /IEDA项目
+### out
+ - product
+ - - CarEngine
+### src
+ - Demo
+
+## DabaiActivity5[   ](https://github.com/pandao/editor.md "Heading link")
+### .idea
+### app
+### gradle/wrapper
+
+## JavaTextview
+### app
+### gradle/wrapper
+
+## Java实训 /IEDA项目
+### StuSCore
+### out
+ - production
+ - - StuScore
+   - Demo
+### untitled1 
+* 主目录下存在两个StuScore.iml文件
+
+## Mine-msater []([https://github.com/pandao/editor.md](https://github.com/Mark-SmallCharlie/Java_Android/edit/master/README.md) "Heading link")
+### app
+### buildSrc
+### gradle/wrapper
+### libbase
+### source
+
+## MyApplication3
+### .idea
+### app
+### gradle/wrapper
+
+## StudentScoreSytem /IEDA项目
+### src/Demo
+
+## classTansfrom /IEDA项目
+### out/production/classTansfrom
+
+## jicheng /IEDA项目
+### out/production/jicheng/Demo
+### src/Demo
+
+## kaoshitest /IEDA项目
+### src
+### target
+
+## loginApp
+### .idea
+### app
+### gradle/wrapper
+
+## newempth
+### .idea
+### app
+### gradle/wrapper
+
+
+## noactivity
+### .idea
+### app
+### gradle/wrapper
+
+## photoskip
+### .idea
+### app
+### gradle/wrapper
+
+## todo_step1
+### .gradle
+### .idea
+### app
+### gradle/wrapper
+
+## todo_step3
+### .gradle
+### .idea
+### app
+### gradle/wrapper
+
+## 多态 /IEDA项目
+* Cat.java
+* Dog.java
+* Test.java
+ 
+## 接口 /IEDA项目
+* Cat.java
+* Dog.java
+* Test.java
+
+## 类 /IEDA项目
+* Animal.java
+* Animal2.java
+
+## 重写 /IEDA项目
+* Animal.java
+* Animal2.java
+* Cat.java
+* Dog.java
+* Java.iml
+* Test.java
+
+## Mine-master.zip
+
+--------
+## App1
+**简介**：安卓开发应用，不知道是什么待补充
+
+**文件介绍**：
+        
+
+## CarsEngine
+**简介**：Java_IDEA开发基础程序，创建汽车类为父类，发动机等为子类；
+
+**文件介绍**：`out/production/CarsEngine`,子文件下有三个类分别是：
+  * `CarEngine.class`,做为父类;
+  * `Car.class`，做为子类;
+  * `Test.class`，测试运行;
+
+## DaibanActivity5
+**简介**：安卓开发应用，不知道待补充
+
+**文件介绍**：
+
+## JavaTextview
+**简介**：安卓开发应用，
+
+**文件介绍**：
+
+## Java实训
+**简介**：Java_IDEA开发基础程序
+
+**文件介绍**：`out/production/StuScore/Demo`,下包含三个类分别是：
+* `Mian.class`，做为主函数进行运行和调用其他函数;
+* `ScoreManager.class`，成绩分析和声明函数;
+* `Student.class`，学生类，定义学生属性和创建结构体;
+
+## Mine-master
+**简介**：安卓开发应用，不知道是声明待补充
+
+**文件介绍**：
+
+
+## MyApplication3
+**简介**：安卓开发应用，不知道待补充
+
+**文件介绍**：
+
+## StudentScoreSytem
+**简介**：和实训好像一样，可能重复了
+
+**文件介绍**：
+
+## classTansfrom
+**简介**：Java_IDEA开发基础程序，父类和子类的转换，内部和外部类，继承和转化，动物类为例子
+
+**文件介绍**：Demo/`Animal.class`,`Dog.class`,`Test.class`;
+
+## jicheng
+**简介**：Java_IDEA开发基础程序,继承动物类，猫类，狗类
+
+**文件介绍**：
+
+## kaoshitest
+**简介**：Java_IDEA开发基础程序
+
+**文件介绍**：
+
+## loginApp
+**简介**：安卓开发应用，登录进的界面设计
+
+**文件介绍**：
+
+## newmpth
+**简介**：不知道是什么待补充
+
+**文件介绍**：
+
+## noactivity
+**简介**：安卓开发应用，可能是空，不知道是什么待补充
+
+**文件介绍**：
+
+## photoskip
+**简介**：安卓开发应用，点击照片进行跳转（作业），
+
+**文件介绍**：
+
+## todo_step1
+**简介**：安卓开发应用，不知道是什么待补充
+
+**文件介绍**：
+
+## todi_step3
+**简介**：安卓开发应用，不知道是什么待补充
+
+**文件介绍**：
+
+## 多态
+**简介**：Java_IDEA开发基础程序，多态
+
+**文件介绍**：`Cat.class`,`Dog.class`,`Test.class`,
+
+## 接口
+**简介**：Java_IDEA开发基础程序
+
+**文件介绍**：`Cat.class`,`Dog.class`,`Test.class`,
+
+## 类
+**简介**：Java_IDEA开发基础程序
+
+**文件介绍**：`Animal1.class`,`Animal.class2`;
+
+## 重写
+**简介**：Java_IDEA开发基础程序
+
+**文件介绍**：`Animal1.class`,`Animal.class2`,`Cat.class`,`Dog.class`,`Java.iml;`,`Test.class`;
+
+

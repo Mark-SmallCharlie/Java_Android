@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build-job project="simple-it\pom.xml" name="" description="" result="failure-build" time="0.003" type="normal">
+  <failureMessage>Maven invocation failed. Error configuring command-line. Reason: Maven executable not found at: F:\APP2\IntelliJ IDEA Community Edition 2025.2.4\plugins\maven\lib\maven3\bin\mvn.bat</failureMessage>
+</build-job>

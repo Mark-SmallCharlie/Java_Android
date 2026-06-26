@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>kaoshitest Maven Plugin</name>
+      <prefix>kaoshitest</prefix>
+      <artifactId>kaoshitest</artifactId>
+    </plugin>
+  </plugins>
+</metadata>
