@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">智慧工厂</string>
+    <string name="welcome_title">欢迎登录</string>
+    <string name="welcome_subtitle">登录您的账号以继续</string>
+    <string name="hint_account">请输入账号</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="btn_login">登 录</string>
+    <string name="btn_register">注 册</string>
+    <string name="or_divider">其他方式登录</string>
+    <string name="qq_login">QQ登录</string>
+    <string name="wechat_login">微信登录</string>
+    <string name="toast_empty_account">请输入账号</string>
+    <string name="toast_empty_password">请输入密码</string>
+    <string name="toast_login_success">登录成功</string>
+    <string name="toast_register">跳转到注册页面</string>
+    <string name="toast_qq_login">QQ登录</string>
+    <string name="toast_wechat_login">微信登录</string>
+    <string name="toast_please_register">请先注册账号</string>
+    <string name="toast_login_failed">账号或密码错误</string>
+
+    <!-- Registration strings -->
+    <string name="register_title">创建账号</string>
+    <string name="register_subtitle">填写以下信息完成注册</string>
+    <string name="hint_name">请输入姓名</string>
+    <string name="hint_email">请输入邮箱</string>
+    <string name="hint_confirm_password">请确认密码</string>
+    <string name="label_gender">性别</string>
+    <string name="gender_male">男</string>
+    <string name="gender_female">女</string>
+    <string name="btn_submit_register">注 册</string>
+    <string name="link_back_to_login">已有账号？返回登录</string>
+    <string name="error_empty_name">请输入姓名</string>
+    <string name="error_empty_email">请输入邮箱</string>
+    <string name="error_invalid_email">邮箱格式不正确</string>
+    <string name="error_password_short">密码长度不能少于6位</string>
+    <string name="error_password_mismatch">两次输入的密码不一致</string>
+    <string name="error_no_gender">请选择性别</string>
+    <string name="register_success_title">注册成功</string>
+    <string name="register_success_message">恭喜！您的账号已注册成功，请返回登录。</string>
+    <string name="btn_back_to_login">返回登录</string>
+    <string name="toast_user_saved">用户信息已保存</string>
+
+    <!-- Home page strings -->
+    <string name="home_title">厂房信息管理</string>
+    <string name="role_admin">管理员</string>
+    <string name="tab_production">生产设备</string>
+    <string name="tab_testing">检测设备</string>
+    <string name="tab_packaging">包装设备</string>
+    <string name="tab_storage">仓储设备</string>
+    <string name="add_equipment">添加设备</string>
+    <string name="edit_equipment">编辑设备</string>
+    <string name="equipment_detail">设备详情</string>
+
+    <!-- Equipment form strings -->
+    <string name="label_equipment_name">设备名称</string>
+    <string name="label_equipment_code">设备编号</string>
+    <string name="label_category">设备分类</string>
+    <string name="label_damage_level">破损程度</string>
+    <string name="label_usage_hours">已用时长(小时)</string>
+    <string name="label_market_price">市价(元)</string>
+    <string name="hint_equipment_name">请输入设备名称</string>
+    <string name="hint_equipment_code">请输入设备编号</string>
+    <string name="hint_usage_hours">请输入已用时长</string>
+    <string name="hint_market_price">请输入市价</string>
+    <string name="btn_save">保 存</string>
+    <string name="btn_cancel">取 消</string>
+    <string name="btn_delete">删 除</string>
+    <string name="btn_edit">编 辑</string>
+    <string name="btn_confirm">确 认</string>
+
+    <!-- Damage levels -->
+    <string name="damage_good">良好</string>
+    <string name="damage_minor">轻微</string>
+    <string name="damage_moderate">中等</string>
+    <string name="damage_severe">严重</string>
+
+    <!-- Equipment info labels -->
+    <string name="info_code">编号</string>
+    <string name="info_damage">破损程度</string>
+    <string name="info_usage">已用时长</string>
+    <string name="info_price">市价</string>
+    <string name="info_hours_format">%d 小时</string>
+    <string name="info_price_format">¥ %.2f</string>
+
+    <!-- Dialog strings -->
+    <string name="dialog_delete_title">确认删除</string>
+    <string name="dialog_delete_message">确定要删除设备 \"%s\" 吗？</string>
+    <string name="toast_add_success">设备添加成功</string>
+    <string name="toast_update_success">设备更新成功</string>
+    <string name="toast_delete_success">设备删除成功</string>
+    <string name="toast_fill_required">请填写所有必填项</string>
+    <string name="no_equipment">暂无设备数据</string>
+</resources>
