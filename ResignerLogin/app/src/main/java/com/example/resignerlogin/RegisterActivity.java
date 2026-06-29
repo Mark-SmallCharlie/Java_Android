@@ -103,6 +103,8 @@ public class RegisterActivity extends AppCompatActivity {
                     Toast.makeText(RegisterActivity.this, "密码必须包含大写字母、小写字母和特殊字符", Toast.LENGTH_SHORT).show();
                     return;
                 }
+                //验证双重密码
+
 
                 if (rgGender.getCheckedRadioButtonId() == -1) {
                     Toast.makeText(RegisterActivity.this, "请选择性别", Toast.LENGTH_SHORT).show();
