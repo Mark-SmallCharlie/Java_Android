@@ -8,17 +8,21 @@ import android.os.Looper;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
 import android.widget.Toast;
 import java.util.Random;
+import java.util.regex.Pattern;
 
 public class RegisterActivity extends AppCompatActivity {
 
     private EditText etName, etEmail, etPassword;
     private RadioGroup rgGender;
-    private CheckBox cbSinging, cbDancing, cbReading;
+    private CheckBox cbSinging, cbDancing, cbReading, cbShowPassword;
     private TextView tvStudentId;
     private Button btnConfirm, btnBack;
     private boolean isConfirmed = false;
@@ -36,9 +40,24 @@ public class RegisterActivity extends AppCompatActivity {
         cbSinging = findViewById(R.id.cbSinging);
         cbDancing = findViewById(R.id.cbDancing);
         cbReading = findViewById(R.id.cbReading);
+        cbShowPassword = findViewById(R.id.cbShowPassword);
         tvStudentId = findViewById(R.id.tvStudentId);
         btnConfirm = findViewById(R.id.btnConfirm);
         btnBack = findViewById(R.id.btnBack);
+
+        // 显示/隐藏密码
+        cbShowPassword.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    etPassword.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                } else {
+                    etPassword.setTransformationMethod(PasswordTransformationMethod.getInstance());
+                }
+                // 光标移到末尾
+                etPassword.setSelection(etPassword.getText().length());
+            }
+        });
 
         // 确定按钮点击事件
         btnConfirm.setOnClickListener(new View.OnClickListener() {
@@ -56,6 +75,32 @@ public class RegisterActivity extends AppCompatActivity {
 
                 if (name.isEmpty() || email.isEmpty() || password.isEmpty()) {
                     Toast.makeText(RegisterActivity.this, "请填写完整信息", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                // 验证姓名长度
+                if (name.length() < 2 || name.length() > 6) {
+                    Toast.makeText(RegisterActivity.this, "姓名长度需在2到6个字符之间", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                // 验证邮箱格式
+                String emailRegex = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$";
+                if (!Pattern.matches(emailRegex, email)) {
+                    Toast.makeText(RegisterActivity.this, "请输入正确的邮箱地址", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                // 验证密码安全强度
+                if (password.length() < 6) {
+                    Toast.makeText(RegisterActivity.this, "密码长度不能少于6个字符", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                boolean hasUpper = Pattern.matches(".*[A-Z].*", password);
+                boolean hasLower = Pattern.matches(".*[a-z].*", password);
+                boolean hasSpecial = Pattern.matches(".*[^A-Za-z0-9].*", password);
+                if (!hasUpper || !hasLower || !hasSpecial) {
+                    Toast.makeText(RegisterActivity.this, "密码必须包含大写字母、小写字母和特殊字符", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
@@ -116,7 +161,7 @@ public class RegisterActivity extends AppCompatActivity {
     private String generateStudentId() {
         Random random = new Random();
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 10; i++) {
             sb.append(random.nextInt(10));
         }
         return sb.toString();
