@@ -20,7 +20,7 @@ import java.util.regex.Pattern;
 
 public class RegisterActivity extends AppCompatActivity {
 
-    private EditText etName, etEmail, etPassword;
+    private EditText etName, etEmail, etPassword, etConfirmPassword;
     private RadioGroup rgGender;
     private CheckBox cbSinging, cbDancing, cbReading, cbShowPassword;
     private TextView tvStudentId;
@@ -36,6 +36,7 @@ public class RegisterActivity extends AppCompatActivity {
         etName = findViewById(R.id.etName);
         etEmail = findViewById(R.id.etEmail);
         etPassword = findViewById(R.id.etPassword);
+        etConfirmPassword = findViewById(R.id.etConfirmPassword);
         rgGender = findViewById(R.id.rgGender);
         cbSinging = findViewById(R.id.cbSinging);
         cbDancing = findViewById(R.id.cbDancing);
@@ -51,11 +52,14 @@ public class RegisterActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
                     etPassword.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                    etConfirmPassword.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
                 } else {
                     etPassword.setTransformationMethod(PasswordTransformationMethod.getInstance());
+                    etConfirmPassword.setTransformationMethod(PasswordTransformationMethod.getInstance());
                 }
                 // 光标移到末尾
                 etPassword.setSelection(etPassword.getText().length());
+                etConfirmPassword.setSelection(etConfirmPassword.getText().length());
             }
         });
 
@@ -72,8 +76,9 @@ public class RegisterActivity extends AppCompatActivity {
                 String name = etName.getText().toString().trim();
                 String email = etEmail.getText().toString().trim();
                 String password = etPassword.getText().toString().trim();
+                String confirmPassword = etConfirmPassword.getText().toString().trim();
 
-                if (name.isEmpty() || email.isEmpty() || password.isEmpty()) {
+                if (name.isEmpty() || email.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()) {
                     Toast.makeText(RegisterActivity.this, "请填写完整信息", Toast.LENGTH_SHORT).show();
                     return;
                 }
@@ -104,7 +109,10 @@ public class RegisterActivity extends AppCompatActivity {
                     return;
                 }
                 //验证双重密码
-
+                if (!password.equals(confirmPassword)) {
+                    Toast.makeText(RegisterActivity.this, "两次输入的密码不一致", Toast.LENGTH_SHORT).show();
+                    return;
+                }
 
                 if (rgGender.getCheckedRadioButtonId() == -1) {
                     Toast.makeText(RegisterActivity.this, "请选择性别", Toast.LENGTH_SHORT).show();
@@ -162,8 +170,8 @@ public class RegisterActivity extends AppCompatActivity {
 
     private String generateStudentId() {
         Random random = new Random();
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < 10; i++) {
+        StringBuilder sb = new StringBuilder("2026");
+        for (int i = 0; i < 6; i++) {
             sb.append(random.nextInt(10));
         }
         return sb.toString();
